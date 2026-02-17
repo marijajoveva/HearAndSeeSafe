@@ -35,12 +35,12 @@ flutter doctor
 # Инсталирај зависности
 flutter pub get
 
-# Стартувај на Chrome
+## Стартувај на Chrome
 flutter run -d chrome
 Апликацијата ќе се отвори автоматски во Google Chrome.
 
-Стартување на Android
-1. Инсталирај Android SDK
+## Стартување на Android
+# 1. Инсталирај Android SDK
 Инсталирај Android Studio
 Отвори Android Studio → SDK Manager
 Инсталирај:
@@ -48,18 +48,18 @@ Android SDK Platform-Tools
 Android SDK Build-Tools
 Android SDK Platform (API 21 или повисоко)
 Прифати лиценци: flutter doctor --android-licenses
-2. Конфигурирај Android
-Опција A
+# 2. Конфигурирај Android
+## Опција A
 
 Овозможи Developer Options на Android телефонот
 Овозможи USB Debugging
 Поврзи го телефонот со компјутерот
-Опција B
+## Опција B
 
 Отвори Android Studio → AVD Manager
 Креирај нов виртуелен уред
 Стартувај го емулаторот
-3. Стартувај апликација
+# 3. Стартувај апликација
 # Инсталирај зависности
 flutter pub get
 
@@ -68,19 +68,19 @@ flutter devices
 
 # Стартувај на Android
 flutter run -d android
-Стартување на iOS (само на macOS)
-1. Инсталирај Xcode
+## Стартување на iOS (само на macOS)
+# 1. Инсталирај Xcode
 Отвори App Store на macOS
 Инсталирај Xcode
 Отвори Xcode и прифати лиценци
 Инсталирај дополнителни компоненти ако се побарано
-2. Инсталирај CocoaPods
+# 2. Инсталирај CocoaPods
 sudo gem install cocoapods
-3. Инсталирај iOS зависности
+# 3. Инсталирај iOS зависности
 cd ios
 pod install
 cd ..
-4. Стартувај апликација
+# 4. Стартувај апликација
 Опција A: Симулатор
 
 # Отвори симулатор
@@ -88,7 +88,7 @@ open -a Simulator
 
 # Стартувај апликацијата
 flutter run -d ios
-Опција B
+## Опција B
 
 Поврзи го iPhone/iPad со Mac
 Довери го уредот во Xcode
